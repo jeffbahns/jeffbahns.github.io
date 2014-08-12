@@ -1,7 +1,177 @@
 <!DOCTYPE html>
 <html>
+	<head>
+		<title>Bootstrap 3</title>
+		<meta name = "viewport" content = "width=device-width, initial scale= 1.0">
+		<link href = "css/bootstrap.min.css" rel = "stylesheet">
+		<link href = "css/styles.css" rel = "stylesheet">
+	</head>
 	<body>
-	<h1>Jeff Bahns</h1>
-	<p>Hello, world!</p>
-	</body
+			<div class = "navbar navbar-inverse navbar-static-top">
+				<div class = "container">
+					
+					<a href = "#" class = "navbar-brand">Tech Site</a>
+
+					<button class = "navbar-toggle" data-toggle = "collapse" data-target = ".navHeaderCollapse">
+
+						<span class = "icon-bar"></span>
+						<span class = "icon-bar"></span>
+						<span class = "icon-bar"></span>
+
+					</button>
+
+					<div class = "collapse navbar-collapse navHeaderCollapse">
+
+						<ul class = "nav navbar-nav navbar-right">
+
+							<li class = "active"><a href = "#">Home</a></li>
+							<li><a href = "#">Blog</a></li>
+							<li class = "dropdown">
+								<a href = "#" class = "dropdown-toggle" data-toggle = "dropdown">Social Media<b class = "caret"></b></a>
+								<ul class = "dropdown-menu">
+									<li><a href = "https://github.com/jeffbahns">GitHub</a></li>
+									<li><a href = "http://soundcloud.com/jeffbahns">Soundcloud</a></li>
+									<li><a href = "#">Google+</a></li>
+
+								</ul>
+							</li>
+							<li><a href = "#">About</a></li>
+							<li><a href = "#contact" data-toggle="modal">Contact</a></li>
+							<li><a href = "read.html">*Test Article*</a></li>
+						</ul>
+
+					</div>
+
+				</div>
+			</div>
+
+			<div class = "container">
+
+				<div class = "jumbotron">
+					<center><h1>Hello World!</h1>					
+					<p>test test test test website</p>
+					<a href = "#" class = "btn btn-primary">Tweet it!</a>
+					<a class = "btn btn-default">Watch Now!</a></center>
+				</div>
+			<div class="bs-example">
+		    <div id="myCarousel" class="carousel slide" data-interval="4500" data-ride="carousel">
+		        <ol class="carousel-indicators">
+		            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+		            <li data-target="#myCarousel" data-slide-to="1"></li>
+		            <li data-target="#myCarousel" data-slide-to="2"></li>
+		        </ol>   
+		        <div class="carousel-inner">
+		            <div class="active item">
+		                <img src = "img/beach.jpg">
+		            </div>
+		            <div class="item">
+		                <img src = "img/berlin.jpg">
+		            </div>
+		            <div class="item">
+		            	<img src = "img/rockymount.png">
+		            </div>
+		        </div>
+		        </a>
+		    </div>
+		</div>
+			</div>
+
+			<div class = "container"s>
+
+				<div class = "row">
+
+					<div class = "col-md-3">
+
+						<h3>New Raspberry_pi</h3>
+						<p>Model B is the higher-spec variant of the Raspberry Pi, with 512 MB of RAM, two USB ports and a 100mb Ethernet port. It’s our most popular model: you can use it to learn about computing; to power real-world projects (like home breweries, arcade machines, musical root vegetables, robot tanks and much more); as a web server; a bitcoin miner; or you can just use it to play Minecraft.</p>
+						<a href = "#" class = "btn btn-default">Read More</a>
+
+					</div>
+
+				<div class = "row">
+
+					<div class = "col-md-3">
+
+						<h3>Test 2</h3>
+						<p>Model B is the higher-spec variant of the Raspberry Pi, with 512 MB of RAM, two USB ports and a 100mb Ethernet port. It’s our most popular model: you can use it to learn about computing; to power real-world projects (like home breweries, arcade machines, musical root vegetables, robot tanks and much more); as a web server; a bitcoin miner; or you can just use it to play Minecraft.</p>
+						<a href = "#" class = "btn btn-default">Read More</a>
+
+					</div>
+
+				<div class = "row">
+
+					<div class = "col-md-3">
+
+						<h3>Test 3</h3>
+						<p>Model B is the higher-spec variant of the Raspberry Pi, with 512 MB of RAM, two USB ports and a 100mb Ethernet port. It’s our most popular model: you can use it to learn about computing; to power real-world projects (like home breweries, arcade machines, musical root vegetables, robot tanks and much more); as a web server; a bitcoin miner; or you can just use it to play Minecraft.</p>
+						<a href = "#" class = "btn btn-default">Read More</a>
+
+					</div>
+
+				<div class = "row">
+
+					<div class = "col-md-3">
+
+						<h3>Test 4</h3>
+						<p>Model B is the higher-spec variant of the Raspberry Pi, with 512 MB of RAM, two USB ports and a 100mb Ethernet port. It’s our most popular model: you can use it to learn about computing; to power real-world projects (like home breweries, arcade machines, musical root vegetables, robot tanks and much more); as a web server; a bitcoin miner; or you can just use it to play Minecraft.</p>
+						<a href = "#" class = "btn btn-default">Read More</a>
+
+					</div>
+
+				</div>
+
+			</div>
+
+			<div class = "navbar navbar-default navbar-fixed-bottom">
+				<div class = "container">
+					<p class = "navbar-text pull-left">Site Built by Jeff Bahns</p>
+					<a href = "http://youtube.com/"class = "btn navbar-btn btn-danger pull-right">Subscribe on YouTube</a>
+				</div>
+			</div>
+
+			<div class = "modal fade" id = "contact" role = "dialog">
+				<div class = "modal-dialog">
+					<div class = "modal-content">
+						<form class = "form-horizontal">
+							<div class = "modal-header">
+								<h4>Contact Tech Site</h4>
+							</div>
+							<div class = "modal-body">
+								
+								<div class = "form-group">
+
+									<label for = "contact-name" class = "col-lg-2 control-label">Name:</label>
+									<div class = "col-lg-10">
+										<input type = "text" class = "form-control" id = "contact-name" placeholder = "Full Name">
+									</div>
+									
+									<label for = "contact-email" class = "col-lg-2 control-label">Email:</label>
+									<div class = "col-lg-10">
+										<input type = "email" class = "form-control" id = "contact-name" placeholder = "you@example.com">
+									</div>
+
+									<label for = "contact-msg" class = "col-lg-2 control-label">Message:</label>
+									<div class = "col-lg-10">
+										<textarea class = "form-control" rows = "6"></textarea>
+									</div>
+
+
+								</div>
+
+							</div>
+							<div class = "modal-footer">
+								<button class = "btn btn-primary" type = "submit">Submit!</button>
+								<a class = "btn btn-default" data-dismiss = "modal">Close</a>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+			<script src="js/bootstrap.min.js"></script>
+
+	</body>
+
+
 </html>
