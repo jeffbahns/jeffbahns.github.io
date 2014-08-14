@@ -1,16 +1,13 @@
 body {
-	margin-bottom: 80px;
-
-.page-header {
-	margin-top: 0px;
+	margin-top: 75px;
+	margin-bottom: 0px;
+	background: none;
 }
 
-.panel-body {
-	padding-top: 0;
-	margin-bottom: 15px
-}
-
-.featuredImg {
-	margin-bottom: 15px;
-	max-height: 225px
+.full {
+  background: url('img/680_snap.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
